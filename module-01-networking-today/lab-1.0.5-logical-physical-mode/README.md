@@ -33,6 +33,10 @@ Branch Office
    ↓
 Branch Office Wiring Closet
 ```
+![Physical Wiring Closet](screenshots/01-physical-wiring-closet.png)
+#### Logical Mode — Network Topology
+
+![Logical Network Topology](screenshots/02-logical-topology.png)
 
 ### Devices
 
@@ -100,6 +104,7 @@ ALS2 FastEthernet Port
 
 This connection provides Ethernet network connectivity between the end device and the switch.
 
+![PC_1 Network and Console Connections](screenshots/03-pc1-network-console-connections.png)
 ### 4. Console Management Connection
 
 A console cable was connected from the **RS232 port of PC_1** to the **Console port of Edge_Router**.
@@ -143,6 +148,7 @@ Router(config)# hostname Edge_Router_Backup
 Edge_Router_Backup(config)# end
 Edge_Router_Backup#
 ```
+![Cisco IOS Hostname Configuration](screenshots/04-ios-hostname-configuration.png)
 
 | Command | Purpose |
 |---|---|
