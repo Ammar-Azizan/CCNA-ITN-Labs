@@ -6,6 +6,14 @@ This lab demonstrates the design and configuration of a simple network consistin
 
 The implementation includes IPv4 addressing, router interface configuration, default gateways, static routing, and connectivity verification between devices on different networks.
 
+## Packet Tracer File
+
+The completed Cisco Packet Tracer topology is available in this repository:
+
+[Download Packet Tracer File](packet-tracer/two-lan-wan-network.pkt)
+
+> Requires Cisco Packet Tracer to open the `.pkt` file.
+
 ## Objectives
 
 - Build two separate LANs connected through a WAN.
