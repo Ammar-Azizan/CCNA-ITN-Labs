@@ -24,13 +24,7 @@ The network consists of two separate LANs connected through a point-to-point WAN
 - **LAN 2:** Router R2 connects to Switch S2, which connects to PC3 and PC4.
 
 ### Network Structure
-
-PC1 ─┐                                      ┌─ PC3
-     ├─ S1 ── R1 ───── WAN ───── R2 ── S2 ─┤
-PC2 ─┘                                      └─ PC4
-
-192.168.1.0/24     10.0.0.0/30     192.168.2.0/24
-     LAN 1              WAN              LAN 2
+![Two-LAN WAN Network Topology](screenshots/01-network-topology.png)
 
 ### Devices Used
 
@@ -41,3 +35,119 @@ PC2 ─┘                                      └─ PC4
 | S1 | Cisco 2960-24TT Switch | Connects devices within LAN 1 |
 | S2 | Cisco 2960-24TT Switch | Connects devices within LAN 2 |
 | PC1–PC4 | PC-PT | End devices used for connectivity testing |
+
+### Connections
+
+| From Device | From Port | To Device | To Port |
+|---|---|---|---|
+| PC1 | FastEthernet0 | S1 | FastEthernet0/1 |
+| PC2 | FastEthernet0 | S1 | FastEthernet0/2 |
+| S1 | GigabitEthernet0/1 | R1 | GigabitEthernet0/0 |
+| R1 | GigabitEthernet0/1 | R2 | GigabitEthernet0/1 |
+| R2 | GigabitEthernet0/0 | S2 | GigabitEthernet0/1 |
+| S2 | FastEthernet0/1 | PC3 | FastEthernet0 |
+| S2 | FastEthernet0/2 | PC4 | FastEthernet0 |
+
+## IP Addressing
+
+The topology uses three IPv4 networks:
+
+| Network | Address | Prefix | Purpose |
+|---|---|---|---|
+| LAN 1 | 192.168.1.0 | /24 | Network for PC1 and PC2 |
+| WAN | 10.0.0.0 | /30 | Point-to-point connection between R1 and R2 |
+| LAN 2 | 192.168.2.0 | /24 | Network for PC3 and PC4 |
+
+### Addressing Table
+
+| Device | Interface | IPv4 Address | Subnet Mask | Default Gateway |
+|---|---|---|---|---|
+| R1 | G0/0 | 192.168.1.1 | 255.255.255.0 | — |
+| R1 | G0/1 | 10.0.0.1 | 255.255.255.252 | — |
+| R2 | G0/0 | 192.168.2.1 | 255.255.255.0 | — |
+| R2 | G0/1 | 10.0.0.2 | 255.255.255.252 | — |
+| PC1 | FastEthernet0 | 192.168.1.10 | 255.255.255.0 | 192.168.1.1 |
+| PC2 | FastEthernet0 | 192.168.1.11 | 255.255.255.0 | 192.168.1.1 |
+| PC3 | FastEthernet0 | 192.168.2.10 | 255.255.255.0 | 192.168.2.1 |
+| PC4 | FastEthernet0 | 192.168.2.11 | 255.255.255.0 | 192.168.2.1 |
+
+## Configuration
+
+### Router R1
+
+R1 provides the default gateway for LAN 1 and connects LAN 1 to R2 through the WAN.
+
+```text
+enable
+configure terminal
+
+interface gigabitEthernet0/0
+ip address 192.168.1.1 255.255.255.0
+no shutdown
+exit
+
+interface gigabitEthernet0/1
+ip address 10.0.0.1 255.255.255.252
+no shutdown
+exit
+
+ip route 192.168.2.0 255.255.255.0 10.0.0.2
+
+end
+```
+
+### Router R2
+
+R2 provides the default gateway for LAN 2 and connects LAN 2 to R1 through the WAN.
+
+```text
+enable
+configure terminal
+
+interface gigabitEthernet0/0
+ip address 192.168.2.1 255.255.255.0
+no shutdown
+exit
+
+interface gigabitEthernet0/1
+ip address 10.0.0.2 255.255.255.252
+no shutdown
+exit
+
+ip route 192.168.1.0 255.255.255.0 10.0.0.1
+
+end
+```
+## Verification
+
+Connectivity was tested after configuring the router interfaces, default gateways, and static routes.
+
+### Verification Commands
+
+The following commands were used on the routers to verify interface status and routing information:
+
+```text
+show ip interface brief
+show ip route
+```
+
+The WAN connection between R1 and R2 was tested using:
+
+```text
+R1# ping 10.0.0.2
+```
+
+### End-to-End Connectivity
+
+End-to-end connectivity was tested from LAN 1 to devices in LAN 2.
+
+From PC1:
+
+```text
+ping 192.168.2.10
+ping 192.168.2.11
+```
+
+Both destination PCs were successfully reachable, confirming that traffic could travel across both LANs through the R1–R2 WAN connection.
+
+![End-to-End Connectivity Test](screenshots/02-end-to-end-connectivity.png)
