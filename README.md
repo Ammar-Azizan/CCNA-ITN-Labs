@@ -16,7 +16,8 @@ The portfolio focuses on applying networking concepts through hands-on activitie
 
 | Module | Lab | Topics | Status |
 |---|---|---|---|
-| Module 1 — Networking Today | 1.0.5 — Logical and Physical Mode Exploration | Packet Tracer, physical & logical topology, cabling, console management, Cisco IOS | ✅ |
+| Module 1 — Networking Today | [1.0.5 — Logical and Physical Mode Exploration](module-01-networking-today/lab-1.0.5-logical-physical-mode/) | Packet Tracer, physical & logical topology, cabling, console management, Cisco IOS | ✅ |
+| Module 1 — Networking Today | [1.5.5 — Two-LAN WAN Network](module-01-networking-today/lab-1.5.5-two-lan-wan-network/) | IPv4 addressing, subnetting, default gateways, router configuration, static routing, connectivity testing | ✅ |
 
 ## 🛠️ Tools
 
