@@ -150,4 +150,20 @@ ping 192.168.2.11
 
 Both destination PCs were successfully reachable, confirming that traffic could travel across both LANs through the R1–R2 WAN connection.
 
-![End-to-End Connectivity Test](screenshots/02-end-to-end-connectivity.png)
+![End-to-End Connectivity Test](screenshots/02-end-to-end-connectivity-pc3.png)
+![End-to-End Connectivity Test](screenshots/03-end-to-end-connectivity-pc4.png)
+
+## Key Takeaways
+
+- A router interface can act as the default gateway for devices within a LAN.
+- Devices on different networks require a router to communicate with each other.
+- A `/30` subnet provides two usable IPv4 addresses, making it suitable for a simple point-to-point WAN connection.
+- Static routes allow routers to reach remote networks that are not directly connected.
+- The next-hop address in a static route must point to the neighboring router, not the router's own interface.
+- `ping`, `show ip interface brief`, and `show ip route` are useful commands for verifying and troubleshooting network connectivity.
+
+## Conclusion
+
+This lab demonstrated the design and configuration of two LANs connected through a point-to-point WAN. IPv4 addressing, default gateways, router interfaces, and static routes were configured to provide communication between the two networks.
+
+Successful end-to-end ping tests confirmed that devices in LAN 1 could communicate with devices in LAN 2 through R1 and R2.
