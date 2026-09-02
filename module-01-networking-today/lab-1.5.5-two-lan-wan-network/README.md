@@ -126,6 +126,15 @@ ip route 192.168.1.0 255.255.255.0 10.0.0.1
 
 end
 ```
+### Static Routing
+
+| Router | Destination Network | Next Hop |
+|---|---|---|
+| R1 | 192.168.2.0/24 | 10.0.0.2 |
+| R2 | 192.168.1.0/24 | 10.0.0.1 |
+
+The static routes allow each router to reach the LAN located behind the other router.
+
 ## Verification
 
 Connectivity was tested after configuring the router interfaces, default gateways, and static routes.
