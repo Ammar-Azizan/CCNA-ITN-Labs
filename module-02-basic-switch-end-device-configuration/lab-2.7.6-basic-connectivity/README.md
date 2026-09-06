@@ -15,6 +15,15 @@ This lab focuses on implementing basic network connectivity between two switches
 - Save switch configurations to NVRAM.
 - Test connectivity between devices using ping.
 
+## Packet Tracer File
+
+The completed Cisco Packet Tracer file for this lab is included in the repository.
+
+📦 [Open Packet Tracer File](packet-tracer/basic-connectivity.pkt)
+
+> **File:** `basic-connectivity.pkt`  
+> **Software:** Cisco Packet Tracer
+
 ## Lab Setup
 
 ### Devices Used
