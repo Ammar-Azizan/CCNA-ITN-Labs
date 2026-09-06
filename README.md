@@ -18,6 +18,8 @@ The portfolio focuses on applying networking concepts through hands-on activitie
 |---|---|---|---|
 | Module 1 — Networking Today | [1.0.5 — Logical and Physical Mode Exploration](module-01-networking-today/lab-1.0.5-logical-physical-mode/) | Packet Tracer, physical & logical topology, cabling, console management, Cisco IOS | ✅ |
 | Module 1 — Networking Today | [1.5.5 — Two-LAN WAN Network](module-01-networking-today/lab-1.5.5-two-lan-wan-network/) | IPv4 addressing, subnetting, default gateways, router configuration, static routing, connectivity testing | ✅ |
+| Module 2 — Basic Switch and End Device Configuration | [2.3.7 — Navigate the IOS](module-02-basic-switch-end-device-configuration/lab-2.3.7-navigate-the-ios/) | Console connection, Cisco IOS CLI, EXEC modes, context-sensitive help, system clock configuration | ✅ |
+| Module 2 — Basic Switch and End Device Configuration | [2.3.8 — Console Connectivity](module-02-basic-switch-end-device-configuration/lab-2.3.8-console-connectivity/) | Physical Mode, serial console, mini-USB console, IOS access, device information, system clock configuration | ✅ |
 
 ## 🛠️ Tools
 
@@ -48,13 +50,13 @@ This portfolio will progressively cover:
 
 Each documented lab may include:
 
-- Technical documentation
-- Network topology
-- Implementation screenshots
-- Cisco IOS configurations
-- Verification results
-- Key findings
-- Academic lab report where appropriate
+- Lab overview and objectives
+- Devices and network topology
+- Implementation steps
+- Cisco IOS commands and configurations
+- Verification and testing
+- Screenshots of key results
+- Key takeaways and observations
 
 ---
 
