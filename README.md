@@ -17,18 +17,20 @@ The portfolio focuses on applying networking concepts through hands-on activitie
 ### Module 1 — Networking Today
 
 | Lab | Topics | Status |
-|---|---|---|
+|---|---|:---:|
 | [1.0.5 — Logical and Physical Mode Exploration](module-01-networking-today/lab-1.0.5-logical-physical-mode/) | Packet Tracer, physical & logical topology, cabling, console management, Cisco IOS | ✅ |
 | [1.5.5 — Two-LAN WAN Network](module-01-networking-today/lab-1.5.5-two-lan-wan-network/) | IPv4 addressing, subnetting, default gateways, router configuration, static routing, connectivity testing | ✅ |
 
 ### Module 2 — Basic Switch and End Device Configuration
 
 | Lab | Topics | Status |
-|---|---|---|
-| [2.3.7 — Navigate the IOS](module-02-basic-switch-end-device-configuration/lab-2.3.7-navigate-the-ios/) | Cisco IOS CLI, EXEC modes, context-sensitive help, system clock | ✅ |
-| [2.3.8 — Console Connectivity](module-02-basic-switch-end-device-configuration/lab-2.3.8-console-connectivity/) | Serial console, mini-USB console, IOS access | ✅ |
-| [2.5.5 — Configure Initial Switch Settings](module-02-basic-switch-end-device-configuration/lab-2.5.5-initial-switch-settings/) | Hostname, console security, password encryption, MOTD, configuration saving | ✅ |
-| [2.7.6 — Implement Basic Connectivity](module-02-basic-switch-end-device-configuration/lab-2.7.6-basic-connectivity/) | IPv4 addressing, VLAN 1 management interface, verification, ping testing | ✅ |
+|---|---|:---:|
+| [2.3.7 — Navigate the IOS](module-02-basic-switch-end-device-configuration/lab-2.3.7-navigate-the-ios/) | Console connection, Cisco IOS CLI, EXEC modes, context-sensitive help, system clock configuration | ✅ |
+| [2.3.8 — Console Connectivity](module-02-basic-switch-end-device-configuration/lab-2.3.8-console-connectivity/) | Physical Mode, serial console, mini-USB console, IOS access, system clock configuration | ✅ |
+| [2.5.5 — Configure Initial Switch Settings](module-02-basic-switch-end-device-configuration/lab-2.5.5-initial-switch-settings/) | Switch initialization, hostname, console security, password encryption, MOTD banner, configuration saving | ✅ |
+| [2.7.6 — Implement Basic Connectivity](module-02-basic-switch-end-device-configuration/lab-2.7.6-basic-connectivity/) | Basic switch configuration, IPv4 addressing, VLAN 1 management interface, interface verification, ping testing | ✅ |
+| [2.9.1 — Basic Switch and End Device Configuration](module-02-basic-switch-end-device-configuration/lab-2.9.1-basic-switch-end-device-configuration/) | Switch security, IPv4 addressing, VLAN 1 management, configuration saving, connectivity verification | ✅ |
+| [2.9.2 — Basic Switch and End Device Configuration (Physical Mode)](module-02-basic-switch-end-device-configuration/lab-2.9.2-basic-switch-end-device-configuration-physical-mode/) | Physical Mode, device cabling, console access, IPv4 addressing, VLAN 1 management, interface and connectivity verification | ✅ |
 
 ## 🛠️ Tools
 
