@@ -32,6 +32,23 @@ The portfolio focuses on applying networking concepts through hands-on activitie
 | [2.9.1 — Basic Switch and End Device Configuration](module-02-basic-switch-end-device-configuration/lab-2.9.1-basic-switch-end-device-configuration/) | Switch security, IPv4 addressing, VLAN 1 management, configuration saving, connectivity verification | ✅ |
 | [2.9.2 — Basic Switch and End Device Configuration (Physical Mode)](module-02-basic-switch-end-device-configuration/lab-2.9.2-basic-switch-end-device-configuration-physical-mode/) | Physical Mode, device cabling, console access, IPv4 addressing, VLAN 1 management, interface and connectivity verification | ✅ |
 
+### Module 3 — Protocols and Models
+
+| Lab | Topics | Status |
+|---|---|---|
+| [3.4.4 — Research Networking Standards](module-03-protocols-and-models/lab-3.4.4-research-networking-standards/) | Networking standards, standards organizations, IEEE, IETF, RFCs | ✅ |
+| [3.5.5 — Investigate the TCP/IP and OSI Models](module-03-protocols-and-models/lab-3.5.5-investigate-tcp-ip-osi-models/) | TCP/IP model, OSI model, encapsulation, PDUs, HTTP, DNS, ARP, TCP, Packet Tracer Simulation Mode | ✅ |
+| [3.7.10 — Use Wireshark to View Network Traffic](module-03-protocols-and-models/lab-3.7.10-use-wireshark-to-view-network-traffic/) | Wireshark, packet capture, Ethernet frames, MAC addresses, IPv4 addresses, ICMP, local and remote traffic analysis | ✅ |
+
+### Module 4 — Physical Layer
+
+| Lab | Topics | Status |
+|---|---|---|
+| [4.6.5 — Connect a Wired and Wireless LAN](module-04-physical-layer/lab-4.6.5-connect-wired-and-wireless-lan/) | Network media, copper cabling, fiber cabling, wireless connectivity, physical connections | ✅ |
+| [4.6.6 — View Wired and Wireless NIC Information](module-04-physical-layer/lab-4.6.6-view-wired-and-wireless-nic-information/) | NICs, Ethernet, Wi-Fi, MAC addresses, IPv4 configuration, interface speed | ✅ |
+| [4.7.1 — Physical Layer Exploration (Physical Mode)](module-04-physical-layer/lab-4.7.1-physical-layer-exploration-physical-mode/) | Physical Mode, ISP infrastructure, POPs, WAN paths, traceroute, Internet connectivity | ✅ |
+| [4.7.2 — Connect the Physical Layer](module-04-physical-layer/lab-4.7.2-connect-the-physical-layer/) | Device interfaces, expansion slots, interface modules, copper cabling, fiber cabling, serial connections, physical connectivity verification | ✅ |
+
 ## 🛠️ Tools
 
 - Cisco Packet Tracer
