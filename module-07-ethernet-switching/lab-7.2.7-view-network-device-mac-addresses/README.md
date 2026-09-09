@@ -20,6 +20,14 @@ The activity focuses on configuring a simple switch-to-PC network, verifying con
 
 ---
 
+## Packet Tracer File
+
+This lab was recreated and completed using Cisco Packet Tracer.
+
+📁 [Completed Packet Tracer File](packet-tracer/view-network-device-mac-addresses.pkt)
+
+---
+
 ## Addressing Table
 
 | Device | Interface | IP Address | Subnet Mask |
