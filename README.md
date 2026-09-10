@@ -49,6 +49,29 @@ The portfolio focuses on applying networking concepts through hands-on activitie
 | [4.7.1 — Physical Layer Exploration (Physical Mode)](module-04-physical-layer/lab-4.7.1-physical-layer-exploration-physical-mode/) | Physical Mode, ISP infrastructure, POPs, WAN paths, traceroute, Internet connectivity | ✅ |
 | [4.7.2 — Connect the Physical Layer](module-04-physical-layer/lab-4.7.2-connect-the-physical-layer/) | Device interfaces, expansion slots, interface modules, copper cabling, fiber cabling, serial connections, physical connectivity verification | ✅ |
 
+### Module 7 — Ethernet Switching
+
+| Lab | Topics | Status |
+|---|---|---|
+| [7.1.6 — Use Wireshark to Examine Ethernet Frames](module-07-ethernet-switching/lab-7.1.6-use-wireshark-to-examine-ethernet-frames/) | Ethernet frames, MAC addresses, frame fields, Wireshark, Layer 2 analysis | ✅ |
+| [7.2.7 — View Network Device MAC Addresses](module-07-ethernet-switching/lab-7.2.7-view-network-device-mac-addresses/) | MAC addresses, network interfaces, device identification, Layer 2 addressing | ✅ |
+| [7.3.7 — View the Switch MAC Address Table](module-07-ethernet-switching/lab-7.3.7-view-switch-mac-address-table/) | MAC address table, dynamic MAC learning, switch ports, frame forwarding | ✅ |
+
+### Module 9 — Address Resolution
+
+| Lab | Topics | Status |
+|---|---|---|
+| [9.1.3 — Identify MAC and IP Addresses](module-09-address-resolution/lab-9.1.3-identify-mac-and-ip-addresses/) | MAC addresses, IPv4 addresses, local and remote communication, Layer 2 frame changes | ✅ |
+| [9.2.9 — Examine the ARP Table](module-09-address-resolution/lab-9.2.9-examine-the-arp-table/) | ARP requests and replies, ARP tables, MAC address tables, local and remote ARP | ✅ |
+| [9.3.4 — IPv6 Neighbor Discovery](module-09-address-resolution/lab-9.3.4-ipv6-neighbor-discovery/) | IPv6 NDP, Neighbor Solicitation, Neighbor Advertisement, ICMPv6, IPv6 neighbor tables | ✅ |
+
+### Module 10 — Basic Router Configuration
+
+| Lab | Topics | Status |
+|---|---|---|
+| [10.1.4 — Configure Initial Router Settings](module-10-basic-router-configuration/lab-10.1.4-configure-initial-router-settings/) | Router CLI, hostname, passwords, MOTD banner, running-config, startup-config, RAM, NVRAM, flash | ✅ |
+| [10.3.4 — Connect a Router to a LAN](module-10-basic-router-configuration/lab-10.3.4-connect-a-router-to-a-lan/) | Router interfaces, IPv4 addressing, interface verification, routing tables, connected routes, OSPF, end-to-end connectivity | ✅ |
+
 ## 🛠️ Tools
 
 - Cisco Packet Tracer
