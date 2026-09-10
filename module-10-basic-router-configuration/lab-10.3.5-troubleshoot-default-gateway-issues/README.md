@@ -134,7 +134,7 @@ Default Gateway: 192.168.10.1
 | PC1 → S1 | ✅ Yes | None after PC1 correction | No further action required | ✅ |
 | PC1 → R1 | ✅ Yes | None after PC1 correction | No further action required | ✅ |
 | PC1 → PC3 | ✅ Yes | None | No action required | ✅ |
-| PC1 → PC4 | ❌ No | Suspected PC4 default gateway issue | Investigate PC4 configuration | ✅ |
+| PC1 → PC4 | ❌ No | Suspected PC4     default gateway issue | Investigate PC4 configuration | ✅ |
 
 ---
 
