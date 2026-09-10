@@ -87,6 +87,12 @@ ping 192.168.10.2
 ping 192.168.10.1
 ```
 
+| Test | Successful? | Issue | Solution | Verified |
+|---|---|---|---|---|
+| PC1 → PC2 (`192.168.10.11`) | ❌ No | Incorrect IP address on PC1 | Change PC1 IP address to `192.168.10.10` | ⬜ |
+| PC1 → S1 (`192.168.10.2`) | ❌ No | Incorrect IP address on PC1 | Change PC1 IP address to `192.168.10.10` | ⬜ |
+| PC1 → R1 (`192.168.10.1`) | ❌ No | Incorrect IP address on PC1 | Change PC1 IP address to `192.168.10.10` | ⬜ |
+
 ![Initial Connectivity Failure](screenshots/03-initial-connectivity-failure.png)
 
 Local testing helps determine whether the problem is caused by:
@@ -124,10 +130,11 @@ Default Gateway: 192.168.10.1
 
 | Test | Successful? | Issue | Solution | Verified |
 |---|---|---|---|---|
-| PC1 → PC2 | No | Incorrect IP address on PC1 | Correct PC1 IP address | ✅ |
-| PC1 → S1 | Record result | Record issue | Apply required correction | Record result |
-| PC1 → R1 | Record result | Record issue | Apply required correction | Record result |
-| PC1 → PC4 | Record result | Record issue | Correct gateway/addressing as required | Record result |
+| PC1 → PC2 | ❌ No | Incorrect IP address on PC1 | Correct PC1 IP address | ✅ |
+| PC1 → S1 | ✅ Yes | None after PC1 correction | No further action required | ✅ |
+| PC1 → R1 | ✅ Yes | None after PC1 correction | No further action required | ✅ |
+| PC1 → PC3 | ✅ Yes | None | No action required | ✅ |
+| PC1 → PC4 | ❌ No | Suspected PC4 addressing/default gateway issue | Investigate PC4 configuration | ⬜ |
 
 ---
 
@@ -289,14 +296,6 @@ which is its default gateway.
 - One solution should be implemented and verified at a time.
 - Configuration changes should be retested after each correction.
 - Clear troubleshooting documentation helps identify and verify network issues.
-
----
-
-# Packet Tracer File
-
-The completed Packet Tracer file is available here:
-
-[`troubleshoot-default-gateway-issues.pkt`](packet-tracer/troubleshoot-default-gateway-issues.pkt)
 
 ---
 
