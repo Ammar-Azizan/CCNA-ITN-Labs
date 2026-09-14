@@ -70,7 +70,11 @@ The portfolio focuses on applying networking concepts through hands-on activitie
 | Lab | Topics | Status |
 |---|---|---|
 | [10.1.4 — Configure Initial Router Settings](module-10-basic-router-configuration/lab-10.1.4-configure-initial-router-settings/) | Router CLI, hostname, passwords, MOTD banner, running-config, startup-config, RAM, NVRAM, flash | ✅ |
-| [10.3.4 — Connect a Router to a LAN](module-10-basic-router-configuration/lab-10.3.4-connect-a-router-to-a-lan/) | Router interfaces, IPv4 addressing, interface verification, routing tables, connected routes, OSPF, end-to-end connectivity | ✅ |
+| [10.3.4 — Connect a Router to a LAN](module-10-basic-router-configuration/lab-10.3.4-connect-a-router-to-a-lan/) | Router interfaces, IPv4 addressing, interface verification, routing tables, connected and learned routes | ✅ |
+| [10.3.5 — Troubleshoot Default Gateway Issues](module-10-basic-router-configuration/lab-10.3.5-troubleshoot-default-gateway-issues/) | Default gateways, IPv4 addressing, connectivity testing, ping, troubleshooting, switch management addressing | ✅ |
+| [10.4.3 — Build a Switch and Router Network](module-10-basic-router-configuration/lab-10.4.3-build-switch-router-network/) | Network implementation, router and switch configuration, IPv4 and IPv6 addressing, SVIs, default gateways, dual-stack routing, connectivity verification | ✅ |
+
+
 
 ## 🛠️ Tools
 
