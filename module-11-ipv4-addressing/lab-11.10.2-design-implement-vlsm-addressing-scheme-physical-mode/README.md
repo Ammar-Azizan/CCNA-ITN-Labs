@@ -184,8 +184,6 @@ service password-encryption
 banner motd #Unauthorized access is prohibited#
 ```
 
-![BR1 Basic Configuration](screenshots/03-br1-basic-configuration.png)
-
 ---
 
 ## 3. BR1 Interface Configuration
@@ -209,8 +207,6 @@ interface gigabitethernet 0/0/1
  no shutdown
  exit
 ```
-
-![BR1 Interface Configuration](screenshots/04-br1-interface-configuration.png)
 
 ---
 
@@ -238,8 +234,6 @@ service password-encryption
 banner motd #Unauthorized access is prohibited#
 ```
 
-![BR2 Basic Configuration](screenshots/05-br2-basic-configuration.png)
-
 ---
 
 ## 5. BR2 Interface Configuration
@@ -263,8 +257,6 @@ interface gigabitethernet 0/0/1
  no shutdown
  exit
 ```
-
-![BR2 Interface Configuration](screenshots/06-br2-interface-configuration.png)
 
 ---
 
@@ -328,8 +320,6 @@ From BR2:
 ```cisco
 ping 192.168.33.249
 ```
-
-![Connectivity Verification](screenshots/09-connectivity-verification.png)
 
 ---
 
@@ -414,14 +404,6 @@ A `/30` subnet has a block size of `4`, so consecutive network addresses increas
 192.168.33.248/30
 192.168.33.252/30
 ```
-
----
-
-# Packet Tracer File
-
-The completed Packet Tracer activity is stored in:
-
-[`design-implement-vlsm-addressing-scheme-physical-mode.pkt`](packet-tracer/design-implement-vlsm-addressing-scheme-physical-mode.pkt)
 
 ---
 
