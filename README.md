@@ -74,7 +74,16 @@ The portfolio focuses on applying networking concepts through hands-on activitie
 | [10.3.5 — Troubleshoot Default Gateway Issues](module-10-basic-router-configuration/lab-10.3.5-troubleshoot-default-gateway-issues/) | Default gateways, IPv4 addressing, connectivity testing, ping, troubleshooting, switch management addressing | ✅ |
 | [10.4.3 — Build a Switch and Router Network](module-10-basic-router-configuration/lab-10.4.3-build-switch-router-network/) | Network implementation, router and switch configuration, IPv4 and IPv6 addressing, SVIs, default gateways, dual-stack routing, connectivity verification | ✅ |
 
+### Module 11 — IPv4 Addressing
 
+| Lab | Topics | Status |
+|---|---|---|
+| [11.10.1 — Design and Implement a VLSM Addressing Scheme](module-11-ipv4-addressing/lab-11.10.1-design-implement-vlsm-addressing-scheme/) | VLSM, subnet planning, host requirements, subnet masks, address allocation, router interface addressing | ✅ |
+| [11.10.2 — Design and Implement a VLSM Addressing Scheme (Physical Mode)](module-11-ipv4-addressing/lab-11.10.2-design-implement-vlsm-addressing-scheme-physical-mode/) | VLSM, physical topology, address planning, future subnet allocation, router configuration, interface addressing, connectivity verification | ✅ |
+| [11.5.5 — Subnet an IPv4 Network](module-11-ipv4-addressing/lab-11.5.5-subnet-an-ipv4-network/) | IPv4 subnetting, subnet masks, network addresses, host ranges, broadcast addresses | ✅ |
+| [11.6.6 — Calculate IPv4 Subnets](module-11-ipv4-addressing/lab-11.6.6-calculate-ipv4-subnets/) | Subnet calculation, prefix lengths, subnet masks, network ranges, usable host addresses | ✅ |
+| [11.7.5 — Subnetting Scenario](module-11-ipv4-addressing/lab-11.7.5-subnetting-scenario/) | Subnet design, host requirements, address allocation, subnet planning, IPv4 addressing | ✅ |
+| [11.9.3 — VLSM Design and Implementation](module-11-ipv4-addressing/lab-11.9.3-vlsm-design-implementation/) | VLSM, variable-size subnets, largest-to-smallest allocation, router and switch addressing, default gateways, connectivity testing | ✅ |
 
 ## 🛠️ Tools
 
